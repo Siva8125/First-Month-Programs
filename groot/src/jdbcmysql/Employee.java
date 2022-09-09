@@ -1,7 +1,7 @@
 package jdbcmysql;
 
 public class Employee {
-	private int Id;
+	private int id;
 	private String name;
 	private double salary;
 	private String address;
@@ -11,11 +11,13 @@ public class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
+	
+	
 	public int getId() {
-		return Id;
+		return id;
 	}
 	public void setId(int id) {
-		Id = id;
+		this.id = id;
 	}
 	public String getName() {
 		return name;
