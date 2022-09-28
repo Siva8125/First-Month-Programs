@@ -42,7 +42,7 @@ public class Producer extends SuperMarket{
 			System.out.println(i.next());
 		}
 		Producer pd = new Producer();
-		pd.produce(items);
+		//pd.produce(items);
 		
 	}
 

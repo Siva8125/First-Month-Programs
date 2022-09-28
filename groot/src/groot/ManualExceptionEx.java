@@ -6,7 +6,7 @@ public class ManualExceptionEx {
 		System.out.println("Hello");
 	      NullPointerException nullPointer = new NullPointerException();
 	      throw nullPointer;
-	      System.out.println("How are you");
+	      //System.out.println("How are you");
 	}
 
 }
