@@ -18,7 +18,7 @@ public class LambdaEventListener {
         f.add(tf);f.add(b);  
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
         f.setLayout(null);  
-        f.setSize(300, 200);  
+        f.setSize(300, 300);  
         f.setVisible(true);  
   
     }  
